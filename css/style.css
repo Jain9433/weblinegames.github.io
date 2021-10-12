@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+header{
+	width: 100%;
+	height: 85vh;
+	background-image: url(../bg.jpg);
+	
+
+}
+nav{
+	width: 100%;
+	height: 12vh;
+	background: black;
+	color: whitesmoke;
+	position: fixed;
+}
+nav .logo{
+
+	width: 25%;
+	text-align: center;
+	margin-left: 5%;
+	text-align: center;
+}
+nav .menu a{
+	margin-top: .5%;
+	color: black;
+	text-decoration: none;
+	float:right ;
+	margin-right: 5%;
+	background: darkgoldenrod;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;justify-content:center;align-items: center;
+	text-align: center;
+	color: black;
+}
+section{
+
+}
+section h2{
+	font-size: 40px;
+	margin: 30px 0 20px 0;
+	text-shadow: 2px 1px 5px gold;
+}
+section h3{
+	font-size: 20px;
+	word-spacing: 2px;
+	text-shadow: 2px 1px 5px gold;
+}
+section p{
+	font-size: 18px;
+	color: #black;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px gold;
+}
+section a{
+	padding: 15px 30px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+section .btntwo{
+	background: black;
+	color: whitesmoke;
+}
+.btntwo:hover{
+	background: whitesmoke;
+	color: black;
+}
+	section .btnthree{
+	background: black;
+	color: whitesmoke;
+}
+.btnthree:hover{
+	background: whitesmoke;
+	color: black;
+}
+footer{
+	background: black;
+	color: whitesmoke;
+	text-align: center;
+	height: 9vh;
+}
+ section h4{
+ 	font-size: 35px;
+ 	text-align: center;
+ }
+ section h5{
+ 	font-size: 35px;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+section h8{
+	font-size: 25px;
+	font-weight: 50
+}
+section h9{
+	font-size: 25px;
+	font-weight: 50%;
+	text-align: justify-all;
+}
+section .btnfour{
+background: black;
+	color: whitesmoke;
+}
+.btnfour:hover{
+	background: whitesmoke;
+	color: black;
+}
+hr{
+	width: 100%;
+	height: 3vh;
+	background: black;
+}
